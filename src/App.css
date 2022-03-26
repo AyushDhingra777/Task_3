@@ -1,10 +1,34 @@
-.App {
-  text-align: center;
+.mainContainer {
+  background-color: black;
+  min-height: 100vh;
+  overflow: scroll;
+  color: white;
+  padding: 5rem;
+  padding-top: 2rem;
+  display: flex;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rightDataContainer {
+  background-color: #242424;
+  padding: 2rem;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.leftNameContainer {
+  background-color: #131313;
+  flex: 1;
+  padding: 1rem;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+.mainInput {
+  background-color: #242424 !important;
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
